@@ -1,0 +1,183 @@
+body {
+	padding: 0;
+	margin: 0;
+	color: #000;
+	font-size: 14px;
+}
+
+button {
+	background: none;
+	outline: none;
+	border: none;
+	cursor: pointer;
+}
+
+p {
+	padding: 0;
+	margin: 0;
+}
+
+figure {
+	padding: 0;
+	margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	padding: 0;
+	margin: 0;
+}
+
+ul,li{
+	display: block;
+}
+
+/*Header*/
+
+.header {
+	width: auto;
+	height: 40px;
+	background-color: #7f8fa6;
+}
+
+.header-name {
+	padding-top: 7px;
+	width: 120px;
+	margin: 0 auto;
+}
+
+.header-name h1 {
+	font-size: 23px;
+	color: #000;
+}
+
+.container {
+	width: 1200px;
+}
+
+/*Game Window*/
+
+.game-window {
+	display: flex;
+	width: 1000px;
+	margin: 20px auto;
+}
+
+/*Left Window*/
+
+.left-window {
+	width: 50%;
+}
+
+.left-window-position {
+	width: 400px;
+	margin: 0 auto;
+}
+
+
+.days-counter {
+	width: 150px;
+	height: 50px;
+	background-color: #C4C4C4;
+	border-radius: 30px;
+}
+
+.days-counter-position {
+	padding-top: 7px;
+}
+
+.days-counter-icon {
+	width: 35px;
+	height: 35px;
+	margin: 0 auto 0 10px;
+	background-color: #FFF;
+	border-radius: 30px;
+}
+
+.cat-image-block {
+	margin-top: 25px;
+	width: 400px;
+	height: 275px;
+	background-color: #CFCFD4;
+	border-radius: 30px;
+}
+
+/*Right Window*/
+.right-window {
+	width: 50%;
+}
+
+.right-window-position {
+	width: 300px;
+	margin: 0 auto;
+}
+
+.points-block {
+	width: 300px;
+	height: 350px;
+	background-color: #CFCFD4;
+	border-radius: 25px;
+}
+
+.points-position {
+	width: 100%;
+	padding-top: 10px;
+}
+
+.point {
+	width: 250px;
+	height: 40px;
+	margin: 20px auto;
+	display: flex;
+}
+
+.icon-point {
+	width: 40px;
+	height: 40px;
+	border-radius: 30px;
+	background-color: #fff;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ex-point {
+	font-size: 9px;
+	color: black;
+}
+
+.name-point {
+	width: 200px;
+	margin-left: 10px;
+	height: 40px;
+	background-color: #fff;
+	border-radius: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.name-point h1 {
+	font-family: 'Roboto', sans-serif;
+}
+
+
+/*Buttons Block*/
+
+.buttons-block {
+	height: 70px;
+    width: 350px;
+	background-color: #EF316D;
+	border-radius: 30px;
+	margin: 30px auto;
+	display: flex;
+	justify-content: center;
+	align-items: center; 
+}
+
+.button-block {
+	margin: 10px;
+	height: 35px;
+	width: 35px;
+	border-radius: 15px;
+	background-color: #fff200;
+}
